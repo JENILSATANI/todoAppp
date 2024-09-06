@@ -1,0 +1,61 @@
+.todo-app {
+    width: 500px;
+    margin: auto;
+  }
+  
+  .tabs button {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .tabs .active {
+    background-color: #006400;
+    color: white;
+  }
+  
+  .task-list ul {
+    list-style-type: none;
+  }
+  
+  .priority-high {
+    color: rgb(246, 13, 13);
+  }
+  
+  .priority-medium {
+    color: rgb(10, 10, 9);
+  }
+  
+  .priority-low {
+    color: rgb(20, 227, 20);
+  }
+  
+  .add-task input {
+    width: 70%;
+    padding: 8px;
+  }
+  
+  .add-task button {
+    padding: 8px;
+  }
+  
+  .task-list button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .task-details {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  .task-list input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
