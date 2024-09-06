@@ -1,6 +1,5 @@
 const mongoose =require("mongoose")
-// let databaseUrl = process.env.DATABASE_URL;
-let databaseUrl = "mongodb+srv://jpempire3108:jpempire3108@nodeproject.zhuuc.mongodb.net/"
+let databaseUrl = process.env.DATABASE_URL;
 console.log('databaseUrl :>> ', databaseUrl);
 
 mongoose

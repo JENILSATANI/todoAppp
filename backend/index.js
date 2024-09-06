@@ -2,6 +2,7 @@ const express=require("express")
 const app =express()
 const bodyParser = require("body-parser")
 
+require("dotenv").config({ path: ".env" });
 
 const {userRoute} =require("../backend/src/route/index")
 require("../backend/src/config/connection")
